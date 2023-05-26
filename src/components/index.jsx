@@ -6,7 +6,7 @@ import SectionTitle from './SectionTitle';
 import About from './About';
 import Services from './Services';
 import FeaturedTours from './FeaturedTours';
-
+import PlacesToGo from './PlacesToGo';
 export {
   Navbar,
   Footer,
@@ -16,4 +16,5 @@ export {
   About,
   Services,
   FeaturedTours,
+  PlacesToGo,
 };
