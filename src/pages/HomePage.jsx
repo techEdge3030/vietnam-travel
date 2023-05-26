@@ -5,6 +5,7 @@ import {
   Hero,
   PlacesToGo,
   Services,
+  NewTours,
 } from '../components';
 
 const HomePage = () => {
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Services />
       <FeaturedTours />
       <PlacesToGo />
+      <NewTours />
     </>
   );
 };
