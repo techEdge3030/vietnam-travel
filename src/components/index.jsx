@@ -5,5 +5,15 @@ import Hero from './Hero';
 import SectionTitle from './SectionTitle';
 import About from './About';
 import Services from './Services';
+import FeaturedTours from './FeaturedTours';
 
-export { Navbar, Footer, ScrollToTop, Hero, SectionTitle, About, Services };
+export {
+  Navbar,
+  Footer,
+  ScrollToTop,
+  Hero,
+  SectionTitle,
+  About,
+  Services,
+  FeaturedTours,
+};
