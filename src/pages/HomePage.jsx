@@ -7,6 +7,7 @@ import {
   Services,
   NewTours,
   Reviews,
+  Promotion,
 } from '../components';
 
 const HomePage = () => {
@@ -19,6 +20,7 @@ const HomePage = () => {
       <PlacesToGo />
       <NewTours />
       <Reviews />
+      <Promotion />
     </>
   );
 };

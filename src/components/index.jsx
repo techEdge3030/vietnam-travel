@@ -9,6 +9,7 @@ import FeaturedTours from './FeaturedTours';
 import PlacesToGo from './PlacesToGo';
 import NewTours from './NewTours';
 import Reviews from './Reviews';
+import Promotion from './Promotion';
 
 export {
   Navbar,
@@ -22,4 +23,5 @@ export {
   PlacesToGo,
   NewTours,
   Reviews,
+  Promotion,
 };

@@ -6,7 +6,6 @@ import { reviews } from '../data';
 const Reviews = () => {
   return (
     <section className="section bg-gray-50" id="reviews">
-      {/* <section className="section bg-purple-100"> */}
       <SectionTitle title="reviews" />
       <p className="text-center text-lg sm:text-2xl font-semibold mb-8">
         Read trusted reviews from our customers
