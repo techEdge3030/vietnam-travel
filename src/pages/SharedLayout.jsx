@@ -3,11 +3,13 @@ import { Outlet } from 'react-router-dom';
 import { Navbar, Footer } from '../components';
 const SharedLayout = () => {
   return (
-    <main>
+    <>
       <Navbar />
-      <Outlet />
+      <main className="min-h-screen">
+        <Outlet />
+      </main>
       <Footer />
-    </main>
+    </>
   );
 };
 

@@ -1,3 +1,110 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@layer components {
+  .section {
+    @apply py-24 px-0;
+  }
+
+  .section-center {
+    @apply px-4 md:px-6 lg:px-8 py-6 lg:py-8 mx-auto sm:max-w-full lg:max-w-7xl;
+  }
+
+  .nav-links-container {
+    @apply items-center hidden space-x-6 lg:flex uppercase text-xl;
+  }
+
+  .nav-link {
+    @apply tracking-wide font-extrabold transition-colors duration-200 hover:text-green-500 hover:underline hover:underline-offset-4 sm:hover:underline-offset-8;
+  }
+
+  .company-name {
+    @apply font-expletus ml-2 text-xl font-semibold tracking-wide uppercase;
+  }
+  .section-title {
+    @apply text-center mb-10 text-4xl uppercase font-extrabold;
+  }
+
+  .underline {
+    @apply w-20 h-1 mt-4 mx-auto;
+  }
+
+
+  .places-container {
+    @apply flex flex-wrap w-1/2;
+  }
+
+  .place-title {
+    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center font-bold italic text-gray-800 px-2 text-lg sm:text-4xl lg:text-5xl opacity-0 group-hover:opacity-100 transition duration-500 ease-in;
+  }
+
+  .place-img {
+    @apply w-full object-cover h-full object-center block group-hover:opacity-40 rounded-lg group-hover:scale-110 duration-500 ease-in-out;
+  }
+
+  .place-link {
+    @apply w-full after:absolute after:top-0 after:left-0 after:w-full after:h-full after:border-2 after:border-gray-100 after:rounded-2xl after:opacity-0 hover:after:opacity-100 hover:after:scale-75 transition duration-500 ease-in  md:p-2 p-1 relative overflow-hidden rounded-lg;
+  }
+
+  .place-link-half {
+    @apply w-1/2;
+  }
+
+  .grid-container {
+    @apply grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3;
+  }
+
+  .link {
+    @apply underline text-blue-400 cursor-pointer;
+  }
+
+  .quote {
+    @apply border-l-4 border-gray-500 pl-4 my-6 italic rounded font-semibold;
+  }
+
+  .tips-container {
+    @apply relative container mx-auto sm:px-4;
+  }
+
+  .article-container {
+    @apply max-w-prose mx-auto py-8;
+  }
+
+  .tip-container {
+    @apply border-b-2 border-gray-200 py-8 grid gap-4;
+  }
+
+  .tip-title {
+    @apply font-bold text-xl mb-4;
+  }
+
+  .notice {
+    @apply italic font-bold text-gray-600;
+  }
+
+  .read-more {
+    @apply bg-transparent border-transparent capitalize font-bold cursor-pointer pl-1;
+  }
+
+  .footer-link {
+    @apply p-2 border rounded-full border-white/25 hover:opacity-75;
+  }
+
+  .img-container {
+    @apply overflow-hidden rounded-xl;
+  }
+
+  .transition-smooth {
+    @apply transition-all duration-300 ease-in;
+  }
+
+  .btn {
+    @apply px-6 py-3 text-sm focus:outline-none focus:ring shadow rounded-3xl transition duration-200 ease-in-out
+  }
+}
