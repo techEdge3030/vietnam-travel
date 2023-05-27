@@ -11,6 +11,7 @@ import {
   Blogs,
   TravelTips,
   WhyUs,
+  Contact,
 } from '../components';
 
 const HomePage = () => {
@@ -27,6 +28,7 @@ const HomePage = () => {
       <Blogs />
       <TravelTips />
       <WhyUs />
+      <Contact />
     </>
   );
 };
