@@ -9,6 +9,7 @@ import {
   Reviews,
   Promotion,
   Blogs,
+  TravelTips,
 } from '../components';
 
 const HomePage = () => {
@@ -22,7 +23,8 @@ const HomePage = () => {
       <NewTours />
       <Reviews />
       <Promotion />
-      <Blogs/>
+      <Blogs />
+      <TravelTips />
     </>
   );
 };
