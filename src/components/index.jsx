@@ -12,6 +12,7 @@ import Reviews from './Reviews';
 import Promotion from './Promotion';
 import Blogs from './Blogs';
 import TravelTips from './TravelTips';
+import WhyUs from './WhyUs';
 
 export {
   Navbar,
@@ -28,4 +29,5 @@ export {
   Promotion,
   Blogs,
   TravelTips,
+  WhyUs,
 };
