@@ -12,6 +12,7 @@ import {
   TravelTips,
   WhyUs,
   Contact,
+  Galleries,
 } from '../components';
 
 const HomePage = () => {
@@ -29,6 +30,7 @@ const HomePage = () => {
       <TravelTips />
       <WhyUs />
       <Contact />
+      <Galleries />
     </>
   );
 };

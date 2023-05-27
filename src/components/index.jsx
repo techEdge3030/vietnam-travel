@@ -14,6 +14,7 @@ import Blogs from './Blogs';
 import TravelTips from './TravelTips';
 import WhyUs from './WhyUs';
 import Contact from './Contact';
+import Galleries from './Galleries';
 
 export {
   Navbar,
@@ -32,4 +33,5 @@ export {
   TravelTips,
   WhyUs,
   Contact,
+  Galleries,
 };
