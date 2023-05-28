@@ -19,6 +19,8 @@ import SingleReview from './SingleReview';
 import TourGallery from './TourGallery';
 import Accordion from './Accordion';
 import Stars from './Stars';
+import ImageHeader from './ImageHeader';
+import TipsHeader from './TipsHeader';
 
 export {
   Navbar,
@@ -42,4 +44,6 @@ export {
   Accordion,
   TourGallery,
   Stars,
+  ImageHeader,
+  TipsHeader,
 };
