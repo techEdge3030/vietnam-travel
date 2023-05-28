@@ -15,6 +15,10 @@ import TravelTips from './TravelTips';
 import WhyUs from './WhyUs';
 import Contact from './Contact';
 import Galleries from './Galleries';
+import SingleReview from './SingleReview';
+import TourGallery from './TourGallery';
+import Accordion from './Accordion';
+import Stars from './Stars';
 
 export {
   Navbar,
@@ -34,4 +38,8 @@ export {
   WhyUs,
   Contact,
   Galleries,
+  SingleReview,
+  Accordion,
+  TourGallery,
+  Stars,
 };
