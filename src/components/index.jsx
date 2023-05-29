@@ -21,6 +21,7 @@ import Accordion from './Accordion';
 import Stars from './Stars';
 import ImageHeader from './ImageHeader';
 import TipsHeader from './TipsHeader';
+import Dynasty from './Dynasty';
 
 export {
   Navbar,
@@ -46,4 +47,5 @@ export {
   Stars,
   ImageHeader,
   TipsHeader,
+  Dynasty,
 };
