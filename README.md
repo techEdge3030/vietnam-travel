@@ -8,7 +8,6 @@ Live project: [https://vietnam-travel.netlify.app/](https://vietnam-travel.netli
 
 <img src="https://media.giphy.com/media/5faLnMzjbjQ2GgrCQi/giphy.gif" width="600" height="400"/>
 
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Features
@@ -31,8 +30,8 @@ Live project: [https://vietnam-travel.netlify.app/](https://vietnam-travel.netli
 ### 1. Clone this repository
 
 ```
-$ git clone https://github.com/namnguyen-dev/vietnam-travel-website-reactjs.git
-$ cd vietnam-travel-website-reactjs
+$ git clone https://github.com/techEdge3030/vietnam-travel
+$ cd vietnam-travel
 ```
 
 ### 2. Run the app
@@ -43,11 +42,5 @@ $ npm install && npm run dev
 
 The app will run in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Contact
-
-- Twitter - [@NamNguyen_Dev](https://twitter.com/NamNguyen_Dev)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
