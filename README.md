@@ -1,10 +1,10 @@
 # Vietnam Travel
 
-https://vietnam-travel.netlify.app/ is a website where visitors can get detailed information, latest news & useful tips on visas, destinations & what to do in Vietnam.
+[https://vietnam-travel-ten.vercel.app/](https://vietnam-travel-ten.vercel.app/) is a website where visitors can get detailed information, latest news & useful tips on visas, destinations & what to do in Vietnam.
 
 ## Demo
 
-Live project: [https://vietnam-travel.netlify.app/](https://vietnam-travel.netlify.app/)
+Live project: [https://vietnam-travel-ten.vercel.app/](https://vietnam-travel-ten.vercel.app/)
 
 <img src="https://media.giphy.com/media/5faLnMzjbjQ2GgrCQi/giphy.gif" width="600" height="400"/>
 
